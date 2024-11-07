@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Teste de site</title>
+</head>
+<body>
+    <form action="script.php" method="post">
+        Valor da temperatura: <input type="number" name="temperatura">
+        <select name="escala_converter" id="escala_converter">
+            <option value="celsius">celsius</option>
+            <option value="fahrenheit">fahrenheit</option>
+            <option value="kelvin">kelvin</option>
+        </select> Para qual escala deseja converter:
+        <select name="escala_conversao" id="escala_conversao">
+            <option value="celsius">celsius</option>
+            <option value="fahrenheit">fahrenheit</option>
+            <option value="kelvin">kelvin</option>
+        </select>
+        <input type="submit" value="converter">
+    </form>
+</body>
+</html>

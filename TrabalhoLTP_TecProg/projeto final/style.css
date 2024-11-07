@@ -11,8 +11,8 @@ body {
 
 div {
     background: white;
-    width: 20%;
-    height: 300px;
+    width: 30%;
+    height: 500px;
     display: table;
     margin: auto;
     margin-top: 4%;
@@ -21,6 +21,7 @@ div {
 
 header {
     background: rgb(138, 138, 255);
+    height: 60px;
     color: white;
     font-size: x-large;
     text-align: center;

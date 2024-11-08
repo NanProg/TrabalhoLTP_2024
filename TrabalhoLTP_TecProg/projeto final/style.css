@@ -6,54 +6,49 @@
 }
 
 body {
-    background: gainsboro
+    background: gainsboro;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 div {
     background: white;
     width: 30%;
     height: 500px;
-    display: table;
     margin: auto;
     margin-top: 4%;
-    border-radius: 10px;
+    border-radius: 8px;
+    
 }
 
 header {
-    background: rgb(138, 138, 255);
+    background: rgb(0, 140, 255);
+    display: flex;
+    align-items: center;
     height: 60px;
+    border-top-right-radius: 8px;
+    border-top-left-radius: 8px;
+}
+
+h1 {
     color: white;
     font-size: x-large;
-    text-align: center;
-    border-top-right-radius: 10px;
-    border-top-left-radius: 10px;
+    margin: auto;
 }
 
-form {
-    text-align: center;
-    margin-top: 5%;
+
+#escala_converter, #tempinput {
+    height: 25px;
+    background: rgba(220, 220, 220, 0.498);
+    border-radius: 4px;
 }
 
-select {
-    margin-top: 5%;
+#escala_converter, #tempinput {
+
 }
 
-p {
-    margin-left: 5%;
-    margin-top: 5%;
-}
 
-.tempinput {
-    height: 30px;
-    width: 20%;
-    border-radius: 7px;
-    background: rgba(220, 220, 220, 0.748);
-}
 
-input {
-    height: 30px;
-    width: fit-content;
-    border-radius: 7px;
-    background: rgba(220, 220, 220, 0.748);
+#escala_conversao, #submit, #label_2{
+    margin: auto;
+    margin-top: 10%;
 }
-

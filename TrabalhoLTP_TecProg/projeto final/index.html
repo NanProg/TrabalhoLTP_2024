@@ -8,20 +8,20 @@
 </head>
 <body>
 <div>
-    <header>Conversor de temperatura</header>
+    <header><h1>Conversor de temperatura</h1></header>
     <form action="script.php" method="post">
-        Valor da temperatura: <input type="number" name="temperatura" class="tempinput">
+        <label id="label_1" for="temperatura">Digite a temperatura: </label><input type="number" name="temperatura" id="tempinput">
         <select name="escala_converter" id="escala_converter">
-            <option value="celsius">celsius</option>
-            <option value="fahrenheit">fahrenheit</option>
-            <option value="kelvin">kelvin</option>
+            <option value="celsius">Cº celsius</option>
+            <option value="fahrenheit">Fº fahrenheit</option>
+            <option value="kelvin">K kelvin</option>
         </select>
         <select name="escala_conversao" id="escala_conversao">
             <option value="celsius">celsius</option>
             <option value="fahrenheit">fahrenheit</option>
             <option value="kelvin">kelvin</option>
         </select>
-        <input type="submit" value="converter">
+        <input type="submit" value="converter" id="submit">
     </form>
 </div>
 </body>

@@ -1,0 +1,71 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+body {
+    background: gainsboro;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.hub {
+    background: white;
+    width: 30%;
+    height: 500px;
+    margin: auto;
+    margin-top: 4%;
+    border-radius: 8px;
+    box-shadow: 1px 1px 10px #00000029;
+    text-align: center;
+}
+
+header {
+    background: rgb(0, 140, 255);
+    display: flex;
+    align-items: center;
+    height: 60px;
+    border-top-right-radius: 8px;
+    border-top-left-radius: 8px;
+}
+
+h1 {
+    color: white;
+    font-size: x-large;
+    margin: auto;
+}
+
+
+.select, #tempinput {
+    height: 25px;
+    background: rgba(220, 220, 220, 0.498);
+    border-radius: 4px;
+}
+
+#escala_conversao, #submit, #label_2{
+   padding: 10px;
+   border-radius: 8px;
+   box-shadow: 1px 1px 5px #424141e1;
+   transition: 0.3s all;
+}
+#submit:hover {
+    transition: 0.3s all;
+    transform: scale(1.1);
+    background-color: #0000000b;
+}
+input, select {
+    margin: 10px;
+}
+
+.formulario {
+    padding: 10%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+img {
+    position: relative;
+    left: 45%;
+}

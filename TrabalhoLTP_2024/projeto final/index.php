@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
     <title>Teste de site</title>
     <link rel="stylesheet" href="style.css">
 </head>
@@ -13,23 +14,22 @@
         <label id="label_1" for="temperatura">Digite a temperatura: </label><input type="number" name="temperatura" id="tempinput">
         <div>
             <label><strong>De: </strong></label><select name="escala_converter" class="select">
-                <option value="celsius">Cº celsius</option>
-                <option value="fahrenheit">Fº fahrenheit</option>
+                <option value="celsius">ºC celsius</option>
+                <option value="fahrenheit">ºF fahrenheit</option>
                 <option value="kelvin">K kelvin</option>
             </select>
         </div>
         <div>
         <label><strong>Para: </strong> </label><select name="escala_conversao" class="select">
-            <option value="celsius">celsius</option>
-            <option value="fahrenheit">fahrenheit</option>
-            <option value="kelvin">kelvin</option>
+            <option value="celsius">ºC celsius</option>
+            <option value="fahrenheit">Fº fahrenheit</option>
+            <option value="kelvin">K kelvin</option>
         </select>
         </div>
         <input type="submit" value="converter" id="submit">
     </form>
     <?=isset($_POST['temperatura'])&&isset($_POST['escala_converter'])&&isset($_POST['escala_conversao'])?"Temperatura convertida: ". conversao_temp($_POST['temperatura'], $_POST['escala_converter'], $_POST['escala_conversao']): ""?>
 </div>
-<img src="/img/logo.png" width="150px" alt="logo" id="img">
 </body>
 </html>
 <?php

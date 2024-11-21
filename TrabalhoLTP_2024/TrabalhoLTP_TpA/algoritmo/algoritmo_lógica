@@ -1,10 +1,9 @@
-#algoritmo e lógica
-
 incio
 |   caracter: escala_converter, escala_conversao;
 |   inteiro: temperatura;
 |   real: valor_convertido
 |   
+|
 |   valor_convertido <- 0
 |   escrever("Digite a temperatura: ")
 |   ler(temperatura);
@@ -42,8 +41,6 @@ incio
 |   fim se
 |
 fim.
-
-#php no terminal
 
 <?php
 $temperatura = readline("Informe o valor da temperatura: ");

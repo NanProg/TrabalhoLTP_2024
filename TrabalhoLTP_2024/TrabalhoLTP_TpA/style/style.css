@@ -10,19 +10,23 @@ body {
     font-family: Arial, Helvetica, sans-serif;
 }
 
+.hub_principal {
+    margin-top: 2%;
+    display: flex;
+    justify-content: center;
+}
+
 .hub {
     background: white;
     width: 30%;
     height: 500px;
-    margin: auto;
-    margin-top: 4%;
     border-radius: 8px;
     box-shadow: 1px 1px 10px #00000029;
     text-align: center;
 }
 
 header {
-    background: rgb(0, 140, 255);
+    background: #1d72aa;
     display: flex;
     align-items: center;
     height: 60px;
@@ -65,7 +69,35 @@ input, select {
     flex-direction: column;
 }
 
-img {
+#temp_icon {
+    margin-bottom: 1%;
+    
+}
+
+.hub_superior {
+    background: #1d72aa;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     position: relative;
-    left: 45%;
+}
+
+#logo_CFK {
+    display: flex;
+    justify-content: center;
+}
+
+#logo_3D {
+    
+}
+
+#logo_tema {
+    position: absolute;
+    right: 1%;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.hub_superior_interior {
+    display: flex;
 }

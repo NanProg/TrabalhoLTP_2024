@@ -1,0 +1,104 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+body {
+    background: rgb(136, 136, 136);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.hub_principal {
+    margin-top: 2%;
+    display: flex;
+    justify-content: center;
+}
+
+.hub {
+    background: rgb(48, 48, 48);
+    width: 30%;
+    height: 500px;
+    border-radius: 8px;
+    box-shadow: 1px 1px 10px #00000029;
+    text-align: center;
+    color: white;
+}
+
+header {
+    background: #000000a4;
+    display: flex;
+    align-items: center;
+    height: 60px;
+    border-top-right-radius: 8px;
+    border-top-left-radius: 8px;
+}
+
+h1 {
+    color: white;
+    font-size: x-large;
+    margin: auto;
+}
+
+
+.select, #tempinput {
+    height: 25px;
+    background: rgb(255, 255, 255);
+    border-radius: 4px;
+}
+
+#escala_conversao, #submit, #label_2{
+   padding: 10px;
+   border-radius: 8px;
+   box-shadow: 1px 1px 5px #424141e1;
+   transition: 0.3s all;
+}
+#submit:hover {
+    transition: 0.3s all;
+    transform: scale(1.1);
+    background-color: #ffffff;
+}
+input, select {
+    margin: 10px;
+}
+
+.formulario {
+    padding: 10%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+#temp_icon {
+    margin-bottom: 1%;
+    
+}
+
+.hub_superior {
+    background: #000000a4;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+#logo_CFK {
+    display: flex;
+    justify-content: center;
+}
+
+#logo_3D {
+    
+}
+
+#logo_tema {
+    position: absolute;
+    right: 1%;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.hub_superior_interior {
+    display: flex;
+}

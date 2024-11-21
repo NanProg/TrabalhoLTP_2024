@@ -16,9 +16,6 @@
         <a href="index.php"><img src="img/claro.png" alt="ícone tema escuro" width="40px"></a>
     </div>
 </div>
-<div class="hub_superior_abaixo">
-    
-</div>
 
 <div class="hub_principal">
     <div class="hub">

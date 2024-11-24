@@ -8,16 +8,16 @@
     <link rel="stylesheet" href="style/style.css">
 </head>
 <body>
-<div class="hub_superior">
-    <div id="logo_3D">
+<div class="hub_superior"> 
+    <div id="logo_3D"> <!-- Logo da Escola Técnica 3D no qual o trabalho foi proposto pelo orientador Gabriel Lyra, turma RGI42 de 2024 -->
         <a href="https://3dcolegios.com/" target="_blank"><img src="img/3Dlogo.png" alt="Logo da 3D Colégios" width="100px"></a>
     </div>
-    <div id="logo_tema">
+    <div id="logo_tema"> <!-- ícone no qual possui duas tags que se completam para cumprir sua função, a tag <img> que serve para implementar uma imagem no corpo do site e <a> para redirecionar o cliente para outro lugar caso seja clicado, ou também como forma de incoporar um arquivo e o usuário baixar assim que clicado sobre. -->
         <a href="index2.php"><img src="img/escuro.png" alt="ícone tema escuro" width="40px"></a>
     </div>
 </div>
 
-<div class="hub_principal">
+<div class="hub_principal"> <!-- Container que contém o formuário e o resultado do processamento de dados. -->
     <div class="hub">
         <header><h1>Conversor de temperatura</h1></header>
         <form action="index.php" method="post" class="formulario"> <!-- formulário onde será obtido os dados, sendo trabalhado através do "index.php", o próprio arquivo no qual se encontra o script -->
@@ -41,8 +41,8 @@
         <?= isset($_POST['temperatura'])&&isset($_POST['escala_converter'])&&isset($_POST['escala_conversao'])? conversao_temp($_POST['temperatura'], $_POST['escala_converter'], $_POST['escala_conversao']): ""?> <!--isset verifica se variável foi definida, ou seja, se foi declarada e seu valor diferente de null, também é requisitado a function "conversao_temp()" -->
     </div>
 </div>
-<div id="logo_CFK">
-    <img src="img/logo.png" alt="logo_CFK" width="120px">
+<div id="logo_CFK"> <!-- logo próprio do site "CFK"-->
+    <a href="https://www.youtube.com/watch?v=QwLvrnlfdNo"><img src="img/logo.png" alt="logo_CFK" width="120px"></a>
 </div>
 </body>
 </html>

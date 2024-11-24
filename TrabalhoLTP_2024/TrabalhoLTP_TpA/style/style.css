@@ -19,7 +19,7 @@ body {
 .hub {
     background: white;
     width: 30%;
-    height: 500px;
+    height: 480px;
     border-radius: 8px;
     box-shadow: 1px 1px 10px #00000029;
     text-align: center;
@@ -59,11 +59,11 @@ h1 {
     background-color: #0000000b;
 }
 input, select {
-    margin: 10px;
+    margin: 8px;
 }
 
 .formulario {
-    padding: 10%;
+    padding: 7%;
     display: flex;
     align-items: center;
     flex-direction: column;

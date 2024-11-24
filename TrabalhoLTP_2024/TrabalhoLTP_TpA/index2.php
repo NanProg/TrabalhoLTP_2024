@@ -42,7 +42,7 @@
     </div>
 </div>
 <div id="logo_CFK">
-    <img src="img/logo.png" alt="logo_CFK" width="120px">
+    <img src="img/logo_escuro.png" alt="logo_CFK" width="120px">
 </div>
 </body>
 </html>

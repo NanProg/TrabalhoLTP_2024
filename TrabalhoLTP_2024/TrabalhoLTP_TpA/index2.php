@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
-    <title>Teste de site</title>
+    <title>CFK - Conversor</title>
     <link rel="stylesheet" href="viaIndexEscuro/styleTema_escuro/style.css">
 </head>
 <body>
